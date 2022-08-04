@@ -1,0 +1,16 @@
+{
+  "name": "automacao-codeceptjs",
+  "version": "1.0.0",
+  "description": "Automação de testes mobile com Appium + CodeceptJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "android": "npx codeceptjs run --steps"
+  },
+  "author": "Leonardo Ribeiro",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^2.6.5",
+    "webdriverio": "^6.1.14"
+  }
+}
